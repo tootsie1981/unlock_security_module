@@ -1,0 +1,8 @@
+sqlite3 device_database/device.db
+
+insert into supported_devices values(187,'F-01D','V12R33B');
+insert into device_address values(187,'commit_creds',3221986012);
+insert into device_address values(187,'prepare_kernel_cred',3221985196);
+insert into device_address values(187,'ptmx_fops',3229222484);
+insert into device_address values(187,'remap_pfn_range',3222251308);
+insert into device_address values(187,'vmalloc_exec',3222293708);
